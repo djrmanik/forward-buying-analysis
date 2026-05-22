@@ -1,0 +1,7 @@
+month,month_name,scenario_1_baseline,scenario_2_promo_jan,scenario_3_promo_apr
+1,January,1600,1760,1600
+2,February,3000,2920,3000
+3,March,3200,3120,3200
+4,April,3800,3800,4560
+5,May,2200,2200,1760
+6,June,2100,2100,1680

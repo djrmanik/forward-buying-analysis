@@ -1,0 +1,21 @@
+parameter,value,unit,description
+sell_price,40,$/unit,Regular selling price
+promo_price_jan,35,$/unit,Promotional price for Scenario 2 (January)
+promo_price_apr,34,$/unit,Promotional price for Scenario 3 (April)
+initial_inventory,2000,units,Starting inventory at period 0
+initial_workers,80,workers,Starting workforce at period 0
+working_days_per_month,20,days,Working days per month
+regular_hours_per_day,8,hours,Regular working hours per day
+max_overtime_per_worker,10,hours/month,Maximum overtime hours per worker per month
+labor_hours_per_unit,4,hours/unit,Labor hours required to produce one unit
+capacity_regular_per_worker,40,units/month,Regular capacity per worker (8 days x 20 days / 4 hrs)
+capacity_overtime_per_worker,2.5,units/month,OT capacity per worker (10 hrs / 4 hrs)
+cost_material,10,$/unit,Material cost per unit produced
+cost_regular_labor,16,$/unit,Regular labor cost per unit (4 hrs x $4/hr)
+cost_overtime_labor,24,$/unit,Overtime labor cost per unit (4 hrs x $6/hr)
+cost_subcontract,30,$/unit,Subcontract cost per unit (excl. material)
+cost_holding,2,$/unit/month,Inventory holding cost per unit per month
+cost_shortage,5,$/unit/month,Shortage penalty cost per unit per month
+cost_hiring,300,$/worker,Cost to hire one new worker
+cost_firing,200,$/worker,Cost to fire (lay off) one worker
+effective_shortage_cost,45,$/unit/month,Shortage cost incl. lost revenue (5 + 40)
